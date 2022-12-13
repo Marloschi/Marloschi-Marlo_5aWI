@@ -1,0 +1,108 @@
+.navbar-horizontal1 li {
+  position: relative;
+  display: inline-block;
+  padding-right: 30px;
+  color: white;
+  font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+  font-feature-settings: "liga", "kern"
+}
+
+.navbar-horizontal2 li {
+  position: relative;
+  display: inline-block;
+  padding-right: 30px;
+  color: white;
+  font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+  font-feature-settings: "liga", "kern"
+}
+
+.flexbox1 {
+  background-color: darkred;
+  position: relative;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.flexbox2 {
+  background-color:orangered;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  
+}
+
+.flexbox3 {
+  background-color: darkred;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  color: white;
+  font-weight: 400;
+}
+
+.content {
+  background-color: white;
+  position: relative;
+  justify-content:center;
+  align-items:center;
+  top: -100px;
+  margin: auto;
+  width: 70%;
+}
+
+.content2{
+  background-color: white;
+  position: relative;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+
+.container-werbung {
+  width: 70%;
+}
+
+#p {
+  padding-right: 20px;
+  padding-right: 30px;
+  color: white;
+  font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+  font-feature-settings: "liga", "kern"
+}
+
+#logo {
+  width: 70px;
+  height: 70px;
+}
+
+#bild {
+  width: 100%;
+}
+
+#Coronavirus {
+  padding: 10px;;
+  font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+  font-feature-settings: "liga", "kern"
+}
+
+#Infektion{
+  font-weight: bolder;
+  font-size:x-large;
+  font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+  font-feature-settings: "liga", "kern"
+}
+#lorem{
+  margin:auto;
+  width: 80%;
+  font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+  font-feature-settings: "liga", "kern"
+}
+
+#header{
+
+  color: white;
+  font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+  font-feature-settings: "liga", "kern"
+}

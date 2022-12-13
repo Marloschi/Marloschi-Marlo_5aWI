@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+  <h1>Minirechner</h1>
+
+  <p id="num">Erste Zahl:</p>
+  <input type="number" id="number1" />
+  <p id="num">Zweite Zahl:</p>
+  <input type="number" id="number2" />
+
+  <h2>Addition</h2>
+  <button onclick = Add() id="'AddButton">Addieren</button>
+  <p>Addition der oberen zwei eingegeben Zahlen</p>
+
+  <h2>Subtraktion</h2>
+  <button onclick = Sub() id="SubButton">
+    Subtrahieren
+  </button>
+  <p>Subtrahieren der oberen zwei eingegeben Zahlen</p>
+
+  <h2>Multiplikation</h2>
+  <button onclick = Mult() id="MultButton">
+    Multiplizieren
+  </button>
+  <p>Multiplizieren der oberen zwei eingegeben Zahlen</p>
+
+  <h2>Division</h2>
+  <button onclick = Div() id="DivButton">Dividieren</button>
+  <p>Dividieren der oberen zwei eingegeben Zahlen</p>
+
+  <h1>Ergebnis</h1>
+  <div id="Ergebnis"></div>
+  </body>
+</html>
