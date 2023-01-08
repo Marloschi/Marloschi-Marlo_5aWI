@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Slick First Game">
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Slick Add Objects (Actors)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/marlo/games/firstgame/Rectangles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/marlo/games/firstgame/Rectangles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/marlo/games/wintergame/MainGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/at/marlo/games/wintergame/WinterGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/marlo/games/wintergame/WinterGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +36,7 @@
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WinterGame">
-    <configuration name="AlphaMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.AlphaMapTest" />
-      <module name="Slick2DTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.newdawn.slick.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WinterGameWithoutActor">
     <configuration name="AnimationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.newdawn.slick.tests.AnimationTest" />
       <module name="Slick2DTemplate" />
@@ -71,7 +55,7 @@
       <module name="Slick2DTemplate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.marlo.games.wintergame.*" />
+          <option name="PATTERN" value="at.marlo.games.wintergamewithoutactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,7 +81,20 @@
       <module name="Slick2DTemplate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.marlo.games.wintergame.*" />
+          <option name="PATTERN" value="at.marlo.games.wintergamewithoutactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinterGameWithoutActor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.marlo.games.wintergamewithoutactor.WinterGameWithoutActor" />
+      <module name="Slick2DTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.marlo.games.wintergamewithoutactor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WinterGameWithoutActor" />
         <item itemvalue="Application.WinterGame" />
         <item itemvalue="Application.Rectangles" />
         <item itemvalue="Application.MainGame" />
         <item itemvalue="Application.AnimationTest" />
-        <item itemvalue="Application.AlphaMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582964206231</updated>
       <workItem from="1673013626819" duration="79000" />
-      <workItem from="1673210198972" duration="7128000" />
+      <workItem from="1673210198972" duration="7566000" />
     </task>
     <task id="LOCAL-00001" summary="Rectangle Diagonal">
       <created>1673210402263</created>
@@ -171,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673217887225</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Slick Add Objects (Actors)">
+      <created>1673219498575</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673219498575</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +201,7 @@
     <MESSAGE value="Rectangle Speed" />
     <MESSAGE value="Slich First Game" />
     <MESSAGE value="Slick First Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slick First Game" />
+    <MESSAGE value="Slick Add Objects (Actors)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slick Add Objects (Actors)" />
   </component>
 </project>
