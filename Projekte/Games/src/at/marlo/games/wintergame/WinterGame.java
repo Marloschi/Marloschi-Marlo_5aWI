@@ -1,20 +1,14 @@
-package at.marlo.games.firstgame;
+package at.marlo.games.wintergame;
 
 
+import at.marlo.games.wintergame.CircleActor;
 import org.newdawn.slick.*;
 import org.newdawn.slick.tests.AnimationTest;
 
 public class WinterGame extends BasicGame {
-
-    private float RectangleX, RectangleY, OvalX, OvalY, CircleX, CircleY;
-    private boolean RectUp = false;
-    private boolean RectDown = false;
-    private boolean RectLeft = false;
-    private boolean RectRight = true;
-    private boolean CircleUp = false;
-    private boolean CircleDown = true;
-    private boolean OvalRight = true;
-    private boolean OvalLeft = false;
+    private CircleActor ca1;
+    private RectangleActor re1;
+    private OvalActor ov1;
 
 
     private float speed;
@@ -24,92 +18,25 @@ public class WinterGame extends BasicGame {
 
     @Override
     public void init(GameContainer gameContainer) throws SlickException {
-        this.CircleY = 100;
-        this.CircleX = 300;
-        this.OvalX = 100;
-        this.OvalY = 10;
-        this.RectangleX = 100;
-        this.RectangleY = 100;
-        this.speed = 5.0f;
+        this.ca1 = new CircleActor(100,100, 3);
+        this.re1 = new RectangleActor(100,100,5);
+        this.ov1 = new OvalActor(100,100,5);
     }
 
     @Override
     public void update(GameContainer gameContainer, int delta) throws SlickException {
-
-        if(this.RectRight == true) {
-            if(this.RectangleX >= 600){
-                this.RectRight = false;
-                this.RectDown = true;
-            }
-            this.RectangleX += (float) delta / this.speed;
-        }
-
-        if(this.RectDown == true){
-            if(this.RectangleY >= 400){
-                this.RectDown = false;
-                this.RectLeft = true;
-            }
-            this.RectangleY += (float) delta / this.speed;
-        }
-
-        if(this.RectLeft == true){
-            if(this.RectangleX <= 100){
-                this.RectLeft = false;
-                this.RectUp = true;
-            }
-            this.RectangleX -= (float) delta / this.speed;
-        }
-        if(this.RectUp == true){
-            if(this.RectangleY <= 100){
-                this.RectUp = false;
-                this.RectRight = true;
-            }
-            this.RectangleY -= (float) delta / this.speed;
-        }
-
-        if(this.OvalRight == true){
-            if(this.OvalX >= 600){
-                this.OvalRight = false;
-                this.OvalLeft = true;
-            }
-            this.OvalX += (float) delta / this.speed;
-        }
-
-        if(this.OvalLeft == true){
-            if(this.OvalX <= 100){
-                this.OvalLeft = false;
-                this.OvalRight = true;
-            }
-            this.OvalX -= (float) delta / this.speed;
-        }
-
-        if(this.CircleDown == true){
-            if(this.CircleY >= 400){
-                this.CircleDown = false;
-                this.CircleUp = true;
-            }
-            this.CircleY += (float) delta / this.speed;
-        }
-
-        if(this.CircleUp == true){
-            if(this.CircleY <= 100){
-                this.CircleUp = false;
-                this.CircleDown = true;
-            }
-            this.CircleY -= (float) delta / this.speed;
-        }
-
-
-
+        this.ca1.update(gameContainer, delta);
+        this.re1.update(gameContainer,delta);
+        this.ov1.update(gameContainer,delta);
 
     }
 
     @Override
     public void render(GameContainer gameContainer, Graphics graphics) throws SlickException {
-        graphics.drawRect(this.RectangleX, this.RectangleY,100,100);
-        graphics.drawOval(this.CircleX,this.CircleY,100,100);
-        graphics.drawOval(this.OvalX,this.OvalY,50,100);
-        graphics.drawString("hello you!", 50, 50);
+        this.ca1.render(graphics);
+        this.re1.render(graphics);
+        this.ov1.render(graphics);
+
     }
 
     public static void main(String[] argv) {
