@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Rectangle Speed">
+    <list default="true" id="eeecc374-2f49-41db-98a7-4767e2469b53" name="Default Changelist" comment="Slich First Game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/marlo/games/firstgame/Rectangles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Slick2DTemplate/at/marlo/games/firstgame/Rectangles.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/at/marlo/games/firstgame/Rectangles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/marlo/games/firstgame/Rectangles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/marlo/games/wintergame/MainGame.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582964206231</updated>
       <workItem from="1673013626819" duration="79000" />
-      <workItem from="1673210198972" duration="4900000" />
+      <workItem from="1673210198972" duration="5518000" />
     </task>
     <task id="LOCAL-00001" summary="Rectangle Diagonal">
       <created>1673210402263</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673214770527</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Slich First Game">
+      <created>1673217238770</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673217238770</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +166,7 @@
     <MESSAGE value="Rectangle Diagonal" />
     <MESSAGE value="Wintergame" />
     <MESSAGE value="Rectangle Speed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rectangle Speed" />
+    <MESSAGE value="Slich First Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slich First Game" />
   </component>
 </project>
