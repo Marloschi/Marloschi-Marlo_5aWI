@@ -7,6 +7,7 @@ import org.newdawn.slick.tests.AnimationTest;
 public class Rectangles extends BasicGame {
 
     private int x;
+    private int y;
     public Rectangles(String title) {
         super(title);
     }
@@ -19,11 +20,16 @@ public class Rectangles extends BasicGame {
     @Override
     public void update(GameContainer gameContainer, int i) throws SlickException {
         this.x++;
+        this.y++;
+        if (this.x>800){
+            this.x = 0;
+            this.y = 0;
+        }
     }
 
     @Override
     public void render(GameContainer gameContainer, Graphics graphics) throws SlickException {
-        graphics.drawRect(this.x,100,100,100);
+        graphics.drawRect(this.x,this.y,100,100);
         graphics.drawString("hello you!", 50, 50);
     }
 
